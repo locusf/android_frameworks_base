@@ -18,7 +18,6 @@ LOCAL_PATH := $(call my-dir)
 # Mer: Only include servicemanager, bootanim and androidfw
 ifeq (,$(ONE_SHOT_MAKEFILE))
 include $(LOCAL_PATH)/cmds/bootanimation/Android.mk \
-        $(LOCAL_PATH)/cmds/servicemanager/Android.mk \
         $(LOCAL_PATH)/libs/androidfw/Android.mk
 endif
 
