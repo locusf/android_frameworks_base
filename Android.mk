@@ -19,6 +19,4 @@ LOCAL_PATH := $(call my-dir)
 ifeq (,$(ONE_SHOT_MAKEFILE))
 include $(LOCAL_PATH)/cmds/bootanimation/Android.mk \
         $(LOCAL_PATH)/libs/androidfw/Android.mk
-endif
-
 endif # ANDROID_BUILD_EMBEDDED
